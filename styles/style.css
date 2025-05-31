@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf) format('truetype');
+  /* font-weight: 100 900; */
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+  /* font-weight: 100 900; */
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+ 
+}
+h1, h2, h3, h4, h5, h6, .logo {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header {
+  background-color: #f8f9fa;
+  padding: 26px 85px;
+  /* border-bottom: 1px solid #e9ecef; */
+}
+header .container {
+  display: flex;
+  gap: 20px;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #100101;
+}
+.nav_list {
+  display: flex;
+  gap: 58px;
+  list-style: none;
+  padding: auto;
+}
