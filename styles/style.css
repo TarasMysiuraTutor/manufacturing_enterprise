@@ -52,3 +52,12 @@ header .container {
   list-style: none;
   padding: auto;
 }
+
+.nav_list_item, .nav_list_item a {
+  display: inline;
+  width: 150px; ;
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none;
+  /* transition: color 0.3s ease; */
+}
